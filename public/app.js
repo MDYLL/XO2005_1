@@ -6,7 +6,7 @@ let board = "111111111";
 let XO;
 let flag = true;
 let turns = 0;
-const apiURL = "http://localhost:3003/api"; //='/api'
+const apiURL = "/api"; //='/api'
 
 function gameOver(result) {
     console.log(result);
